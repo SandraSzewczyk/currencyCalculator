@@ -1,0 +1,31 @@
+.calculator__field {
+    border-radius: 4%;
+    border: 1px solid lightslategrey;
+}
+
+.calculator__name {
+    background-color: darkblue;
+    border-radius: 4%;
+    color: white;
+    margin: auto;
+    padding: 6px;
+}
+
+.calculator__labelText {
+    display: inline-block;
+    max-width: 150px;
+    width: 100%;
+}
+
+.calculator__cell {
+    text-align: right;
+    padding: 5px;
+}
+
+.calculator__cell:disabled {
+    background-color: #eeee;
+}
+
+.calculator__cell:read-only {
+    background-color: #eeee;
+}

@@ -1,0 +1,23 @@
+.button {
+    background-color: hsl(240, 100%, 70%);
+    color: white;
+    border-radius: 3%;
+    padding: 5px;
+}
+
+.button--important {
+    background-color: darkblue;
+    width: 100%;
+}
+
+.button--important:hover {
+    background-color: hsl(240, 100%, 17%);
+}
+
+.button--important:active {
+    background-color: hsl(240, 100%, 7%);
+}
+
+.button:hover {
+    background-color: hsl(240, 100%, 60%);
+}
