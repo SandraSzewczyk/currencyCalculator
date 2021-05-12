@@ -1,5 +1,11 @@
 .container {
-    max-width: 100%;
-    width: 500px;
-    margin: 10px auto;
+  width: 500px;
+  height: 500px;
+  resize: both;
+  overflow: auto;
+  background-image: url("../img/foto.jpg");
+  background-size: cover;   
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
 }
