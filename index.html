@@ -26,10 +26,13 @@
                 Kalkulator walutowy
             </legend>
             <p>
-                <label>
-                <span class="calculator__labelText">Aktualny kurs EUR:</span> 
-                <input class="calculator__cell js-exchange" type="number" name="exchange" value="4.56" readonly>
-                </label>
+                <span class="calculator__labelText">Wybierz kurs</span> 
+                    <select name = "currency" class="calculator__cell js-currency" readonly>
+                        <option value="EUR">EUR</option>
+                        <option value="GBP">GBP</option>
+                        <option value="USD">USD</option>
+                
+    </select>
 
             </p>
             <p>
@@ -40,7 +43,7 @@
                 <p>
                     <label>
                  <span class="calculator__labelText">Wartość w EUR:</span> 
-                   <input class="calculator__cell js-eur" type="number" name="eur" disabled>
+                   <input class="calculator__cell js-result" type="number" name="result" disabled>
                 </label>
                 </p>
 
